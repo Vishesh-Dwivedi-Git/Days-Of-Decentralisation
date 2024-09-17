@@ -1,0 +1,20 @@
+In cryptography, public and private keys are used in a key pair system for encryption, digital signatures, and other security protocols. Here's a breakdown of each:
+
+1. Private Key:
+A secret key known only to the owner.
+Used for decryption of messages or signing digital documents.
+Should never be shared or exposed.
+In the context of blockchain wallets (e.g., Ethereum, Solana), the private key is what allows you to authorize transactions.
+If someone gains access to your private key, they have full control over your wallet and funds.
+2. Public Key:
+Derived from the private key using a mathematical process.
+Can be freely shared with others.
+Used to encrypt data that only the private key can decrypt or to verify digital signatures created by the corresponding private key.
+In cryptocurrencies, the public key (or its hash, like an Ethereum or Solana address) is where people can send funds to.
+Example in Asymmetric Encryption (like RSA, ECDSA):
+Encryption:
+A sender encrypts data using the recipient's public key.
+Only the recipient can decrypt it using their private key.
+Digital Signatures:
+A signer uses their private key to create a signature.
+Anyone can verify this signature using the signer's public key.
