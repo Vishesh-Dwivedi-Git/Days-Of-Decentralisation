@@ -1,0 +1,19 @@
+In Solana, balances refer to the amount of SOL or other tokens held by a particular account or wallet on the network. Understanding balances is crucial when working with Solana since the network operates using its native cryptocurrency, SOL, as well as a variety of other SPL (Solana Program Library) tokens.
+
+Here’s a breakdown of balances on Solana:
+
+1. Native SOL Balance:
+Every wallet on Solana has an associated SOL balance.
+SOL is used to pay for transaction fees and to interact with smart contracts.
+You can check a wallet’s SOL balance by querying the Solana blockchain using commands like solana balance (from the command-line interface) or interacting with Solana's API.
+Maintaining a minimum balance is important since Solana accounts must stay "rent-exempt." This means they must hold a small amount of SOL to remain active and not be purged from the network.
+2. SPL Token Balances:
+Solana also supports other tokens via the SPL token standard (similar to ERC-20 on Ethereum).
+SPL tokens can be used for various decentralized applications (DeFi, NFTs, etc.) and are stored in associated token accounts.
+Each token requires a separate token account to hold a balance for that specific SPL token. Creating a new token account costs a small amount of SOL.
+3. Staked SOL:
+SOL can also be staked to validators on the network to help secure the blockchain and earn rewards.
+Staked SOL is locked in staking accounts, and you cannot use it for transactions or other operations until it is unstaked. There’s usually a period of waiting to unstake (cooling down).
+4. Rent-Exempt Minimums:
+Accounts on Solana must hold a minimum balance to avoid being charged rent and becoming inactive. This rent-exempt status requires holding a small amount of SOL.
+The exact amount changes based on the size of the account and current rent parameters of the network.
