@@ -1,0 +1,37 @@
+What Is USD Coin (USDC)?
+USD Coin (USDC) is a digital currency that is fully backed by U.S. dollar assets. USDC is a tokenized U.S. dollar, with the value of one USDC coin pegged as close to the value of one U.S. dollar as it can get. The value of USDC is designed to remain stable, making USDC a stablecoin.
+
+Stablecoins are commonly backed by reserve assets like dollars or euros to achieve price stability. The price stability of USDC contrasts sharply with the notorious price fluctuations of other cryptocurrencies like Bitcoin and Ethereum.
+Understanding USD Coin (USDC)
+USD Coin (USDC) is a stablecoin, a cryptocurrency backed by U.S. dollars or dollar-denominated assets like U.S. Treasury securities. USDC's cash assets are held in segregated accounts with regulated U.S. financial institutions and its reserve portfolio is held at the Bank of New York Mellon.
+Circle, the company behind USDC, maintains the 1:1 peg with the U.S. dollar by holding an amount of cash or cash equivalents equal to the amount of USDC circulation. So, if you initiate a transaction to buy one USD Coin using $1, then that dollar is deposited and stored, and you hold 1 USDC. If you sell 1 USDC in exchange for $1, the USDC is burned (sent to a wallet with no access keys) when the fiat money is transferred back to your bank account.
+1
+Advantages and Disadvantages of USD Coin
+Pros
+Low price volatility
+
+Fully backed by U.S.-regulated reserve assets
+
+Can be used as a hedge against inflation
+
+Cons
+No price appreciation
+
+Not immune to U.S. dollar price inflation
+Use Cases for USD Coin
+As a price-stable digital asset, USDC can be used in several ways:
+
+Hedge against volatility: Investors exposed to other cryptocurrencies can reduce their portfolios' volatility by strategically buying a stablecoin like USDC. Owning USDC during periods of significant market volatility can help to stabilize a portfolio's value.
+Pricing in fiat money: Digital assets listed on cryptocurrency exchanges can be priced in fiat money using a stablecoin like USDC.
+Stable price-pegging: The price stability of USDC enables the stablecoin to represent equity ownership or fund investments. USDC can also be used to represent liabilities or debt.
+Remittances: USDC can be used to send funds across borders. Recipients can store USDC without using a bank account or being concerned about price volatility.
+U.S. dollar exposure: Non-U.S. investors wishing to gain exposure to the U.S. dollar can add USDC to their cryptocurrency investment portfolios.
+Hedge against inflation: Non-U.S. investors concerned about inflation of their local currency can hold a stablecoin like USDC to help protect the value of their money.
+Global crowdfunding: Startup companies and nonprofit organizations can raise money from investors and donors worldwide by soliciting digital currency. Raising funds in the form of a stablecoin like USDC ensures that the value of the money raised does not fluctuate over time.
+Blockchain interconnection: Since USDC is compatible with several autonomous blockchains, USDC can be a way to integrate payment systems and applications across blockchains.
+Is USD Coin a Good Investment?
+USD Coin is not designed to be an investment; it is designed to be pegged to the U.S. dollar.
+
+Is USDC Always $1?
+USDC maintains a price $1 price by holding fiat currency equal to the amount of circulating USDC. Its price might vary in $0.0001 increments, but for the most part it is pegged.
+
