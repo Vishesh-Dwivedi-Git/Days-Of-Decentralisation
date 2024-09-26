@@ -1,0 +1,1 @@
+n Solana, token minting works differently compared to Ethereum's ERC-20 standard. Solana uses the SPL Token Program for token creation and minting. You can use the Solana CLI or write custom scripts to mint tokens using Solana's @solana/spl-token library.

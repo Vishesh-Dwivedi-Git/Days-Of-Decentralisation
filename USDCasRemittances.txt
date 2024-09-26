@@ -1,6 +1,4 @@
-how can usdc help in the Remittances
-ChatGPT said:
-ChatGPT
+how can usdc help in the Remittances:
 USDC (USD Coin), a stablecoin pegged to the US dollar, can play a transformative role in remittances by providing a fast, low-cost, and efficient alternative to traditional money transfer services. Here are some ways USDC can help in remittances:
 
 1. Lower Transaction Costs
@@ -24,10 +22,7 @@ USDC's role in remittances can thus provide significant benefits in cost, speed,
 
 
 
-You said:
 so if i am living in us , i can convert my usd to usdc through coinbase then send to a account in india , then a person in india can extract the coin and then convert usdc to inr directly through coinbase 
-ChatGPT said:
-ChatGPT
 Yes, that's correct! Here's how the process would work for sending USDC from the US to India using Coinbase:
 
 1. Convert USD to USDC in the US
