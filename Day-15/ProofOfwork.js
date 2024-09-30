@@ -1,22 +1,31 @@
-const { Keypair } = require("@solana/web3.js")
-const {nacl}=require("tweetnacl");
+const crypto = require('crypto');
 
+// Function to calculate the hash
+function calculateHash(index, previousHash, timestamp, data, nonce) {
+    return crypto.createHash('sha256').update(index + previousHash + timestamp + data + nonce).digest('hex');
+}
 
-// genarating keypair
-const keypair=keypair.generate();
+// Proof of Work function
+function mineBlock(previousHash, index, data, difficulty) {
+    let nonce = 0;
+    let hash;
 
-//public
-const pubkey=keypair.publicKey.toString();
-const secretKey=keypair.secretKey;
+    // Keep hashing until we find a valid hash
+    do {
+        nonce++;
+        hash = calculateHash(index, previousHash, Date.now(), data, nonce);
+    } while (hash.substring(0, difficulty) !== '0'.repeat(difficulty));
 
-const message=new TextEncoder().encode("hello world");
+    console.log(`Block mined: ${hash}`);
+    console.log(`Nonce: ${nonce}`);
+    return hash;
+}
 
-const sign=nacl.sign.detached(message,secretKey);
+// Example usage
+const previousHash = "0"; // Genesis block hash
+const difficulty = 4; // Number of leading zeros
+const blockData = "Some transaction data";
 
-const  result=nacl.sign.detached.verify(
-    message,
-    sign,
-    keypair.publicKey.toBytes(),
-);
-
-
+// Mine the block
+console.log("Mining...");
+mineBlock(previousHash, 1, blockData, difficulty);
