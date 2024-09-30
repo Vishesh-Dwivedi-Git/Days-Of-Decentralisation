@@ -31,3 +31,5 @@ The WalletMultiButton component is a pre-built button that handles wallet connec
 
 Purpose: Provide an intuitive UI component for wallet connection and management.
 Functionality: Automatically changes between states like "Connect", "Disconnect", or showing the user’s public key once a wallet is connected.
+
+

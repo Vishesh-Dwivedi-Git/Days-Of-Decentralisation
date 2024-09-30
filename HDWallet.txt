@@ -16,3 +16,20 @@ Convenient Backup: Only the seed needs to be backed up, and the entire wallet ca
 Multiple Addresses: Ability to create multiple receiving addresses without needing multiple wallets.
 Account Management: Organizes keys and addresses in a structured and manageable way for personal or business use.
 HD wallets are commonly used in cryptocurrency systems like Bitcoin, Ethereum, and other blockchain-based networks.
+
+Random Seed (256 bits)
+       |
+       v
+  Mnemonic Phrase (e.g., 12 or 24 words)
+       |
+       v
+  Master Private Key (BIP32)
+       |
+       v
+    Child Keys
+       |
+       v
+   Hierarchical Structure
+       |
+       v
+   Address Generation
