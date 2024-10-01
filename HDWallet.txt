@@ -17,10 +17,11 @@ Multiple Addresses: Ability to create multiple receiving addresses without needi
 Account Management: Organizes keys and addresses in a structured and manageable way for personal or business use.
 HD wallets are commonly used in cryptocurrency systems like Bitcoin, Ethereum, and other blockchain-based networks.
 
-Random Seed (256 bits)
+
+  Mnemonic Phrase (e.g., 12 or 24 words)
        |
        v
-  Mnemonic Phrase (e.g., 12 or 24 words)
+  Random Seed (256 bits)
        |
        v
   Master Private Key (BIP32)
