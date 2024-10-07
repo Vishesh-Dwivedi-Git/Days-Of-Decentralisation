@@ -1,0 +1,11 @@
+A CEX (Centralized Exchange) is a cryptocurrency exchange platform where transactions are managed and facilitated by a centralized entity or company. These exchanges operate as intermediaries between buyers and sellers of cryptocurrencies, typically offering features such as liquidity, trading pairs, security, and user-friendly interfaces. Users on CEXs deposit their funds into the platform's wallets, and the exchange holds custody over their assets, unlike decentralized exchanges (DEXs), where users maintain control over their private keys and assets.
+
+Examples of popular CEX platforms include Binance, Coinbase, and Kraken.
+
+Key features of CEX platforms:
+
+Centralized Control: The platform manages users' assets and executes trades on their behalf.
+High Liquidity: Typically offers more liquidity and faster trades due to a large user base.
+Regulations and Compliance: Often follows regulatory requirements like KYC (Know Your Customer) and AML (Anti-Money Laundering) procedures.
+Customer Support: Offers direct customer support for users facing issues.
+However, using a CEX requires trust in the platform's security and policies, as users do not control the private keys to their wallets.

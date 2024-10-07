@@ -1,0 +1,10 @@
+A **DEX** (Decentralized Exchange) is a type of cryptocurrency exchange that operates without a central authority or intermediary, allowing users to trade digital assets directly with one another. Unlike centralized exchanges (CEX), where a company acts as a middleman, DEXs are typically built on blockchain technology, and transactions are executed via smart contracts. Here are key aspects of a DEX:
+
+1. **No Central Authority**: DEXs do not rely on a company or organization to manage or oversee transactions.
+2. **Self-Custody**: Users maintain control over their private keys and funds, rather than relying on a third-party custodian.
+3. **Liquidity Pools**: DEXs often use liquidity pools where users can provide funds to facilitate trading, earning a portion of the trading fees in return.
+4. **Smart Contracts**: Trading is automated and trustless, executed through smart contracts on a blockchain.
+5. **Anonymity**: Many DEXs do not require users to create accounts or undergo Know Your Customer (KYC) procedures.
+6. **Fees**: DEXs usually have lower fees, but network fees (like gas on Ethereum) may still apply.
+
+Examples of DEXs include **Uniswap**, **PancakeSwap**, and **SushiSwap**. DEXs are popular for users interested in decentralized finance (DeFi), providing an alternative to traditional exchanges while prioritizing user control and privacy.
