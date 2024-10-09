@@ -1,0 +1,18 @@
+An AMM (Automated Market Maker) is a type of decentralized exchange (DEX) protocol used in decentralized finance (DeFi) that facilitates trading without the need for a traditional order book or intermediary. Instead of matching buyers and sellers, AMMs use liquidity pools and mathematical formulas to set asset prices and enable trading.
+
+Here's how an AMM works:
+
+Liquidity Pools: Users (liquidity providers) deposit pairs of tokens into pools, such as ETH/USDT, and earn fees when others trade against these pools. This liquidity is available for trades without needing a counterparty at the exact time of the trade.
+
+Pricing Mechanism: AMMs use algorithms to determine the price of tokens in a liquidity pool. One common formula is x * y = k, where:
+
+x is the quantity of one token in the pool,
+y is the quantity of the other token, and
+k is a constant.
+This is known as the constant product formula, used by protocols like Uniswap.
+
+Slippage: When large trades occur in small pools, the price can change significantly due to the constant product formula. This difference between the expected price and the actual price is called slippage.
+
+Impermanent Loss: Liquidity providers face the risk of impermanent loss, which happens when the price of tokens in the liquidity pool diverges from the price in the open market. The larger the price movement, the bigger the potential loss compared to holding the tokens outside the pool.
+
+Popular examples of AMMs include Uniswap, SushiSwap, and Balancer. They have become fundamental to the DeFi ecosystem by enabling seamless token swaps without relying on centralized exchanges.
