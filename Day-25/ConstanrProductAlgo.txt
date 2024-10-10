@@ -1,0 +1,63 @@
+The constant product algorithm is a mechanism used in decentralized finance (DeFi) to facilitate automated market-making in decentralized exchanges (DEXs) like Uniswap. The key principle behind this algorithm is maintaining a constant product between two assets in a liquidity pool, ensuring liquidity at any price.
+
+Here's how it works:
+
+Liquidity Pool: A liquidity pool consists of two tokens (let's call them Token A and Token B), provided by liquidity providers (LPs). The pool has a reserve of each token, denoted as 
+𝑥
+x (for Token A) and 
+𝑦
+y (for Token B).
+
+Constant Product Formula: The product of the reserves must always remain constant. This is represented as:
+
+𝑥
+⋅
+𝑦
+=
+𝑘
+x⋅y=k
+where 
+𝑘
+k is a constant. This formula dictates the price and ensures liquidity in the pool.
+
+Swapping: When a user swaps one token for another (e.g., they trade Token A for Token B), the amount of Token A in the pool increases, while the amount of Token B decreases. The constant product 
+𝑘
+k ensures that the price of tokens changes dynamically as the pool composition shifts.
+
+Price Adjustment: As the ratio of the reserves changes due to trades, the price adjusts automatically. Larger trades cause slippage because they significantly alter the ratio of tokens in the pool, moving the price further from the original.
+
+Example
+If a pool has 10 Token A and 100 Token B, the constant product 
+𝑘
+k is:
+
+10
+⋅
+100
+=
+1000
+10⋅100=1000
+If someone swaps 1 Token A for Token B, the new amount of Token A in the pool becomes 11. To maintain the constant 
+𝑘
+=
+1000
+k=1000, the pool will now have:
+
+11
+⋅
+𝑦
+=
+1000
+⇒
+𝑦
+=
+1000
+11
+≈
+90.9
+11⋅y=1000⇒y= 
+11
+1000
+​
+ ≈90.9
+Thus, after the trade, the pool will have 11 Token A and 90.9 Token B, adjusting the price based on supply and demand.
