@@ -1,0 +1,15 @@
+Exactly! You've summarized the flow perfectly. Here's a quick recap of the steps:
+
+Make the Quote:
+You send a request to the Jupiter Aggregator API to get a price quote for swapping SOL to USDC based on the amount and slippage you specified.
+
+Receive the Transaction Object:
+Jupiter’s API returns a serialized transaction (in base64 format) for performing the swap. This transaction might already be partially signed (e.g., by Jupiter for swap-related instructions).
+
+Local Signing with the Wallet:
+You deserialize the transaction and use your wallet to sign it locally. This step ensures that the transaction is authorized by your wallet (with your private key).
+
+Send the Final Transaction:
+After signing, you serialize the transaction back into a format that can be submitted to the Solana blockchain. Finally, you send this fully signed transaction to the Solana network using connection.sendRawTransaction(), where the swap is executed on the blockchain.
+
+This flow ensures that you securely interact with the Jupiter Aggregator, perform local signing to authorize the transaction, and then submit it to the blockchain for execution.
