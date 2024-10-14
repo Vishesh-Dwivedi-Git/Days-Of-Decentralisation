@@ -1,0 +1,10 @@
+ Contract Accounts (Smart Contract Accounts)
+Definition: Contract accounts are accounts that are controlled by the code of a smart contract. They can hold Ether and execute code when they receive a transaction.
+
+Characteristics:
+
+Controlled by Code: Contract accounts do not have a private key. Instead, they operate according to the logic defined in their smart contract code.
+State Variables: Contract accounts can maintain state variables, which hold data and can be modified by functions within the contract.
+Receive and Send Ether: Contract accounts can also hold Ether and receive funds, but they can only send Ether in response to function calls.
+Immutability: Once deployed, the code of a smart contract cannot be changed (unless upgradable patterns are used).
+Example: A decentralized application (dApp) like a token contract, a decentralized finance (DeFi) protocol, or an NFT marketplace all utilize smart contract accounts.
