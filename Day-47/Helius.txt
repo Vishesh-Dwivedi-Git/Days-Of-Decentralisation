@@ -1,0 +1,15 @@
+Helius is a blockchain infrastructure company that provides APIs, tools, and developer support to interact with Solana blockchain data efficiently. The platform simplifies retrieving Solana account data, transaction history, NFT metadata, and more, enabling developers to build applications like analytics dashboards, NFT marketplaces, DeFi platforms, and other Web3 projects without having to handle raw blockchain data directly.
+
+Here’s a quick overview of some key Helius API features:
+
+Transaction Parsing: Helius provides decoded transaction data, making it easy to access and understand token transfers, swaps, staking events, and other activities on Solana.
+
+NFT API: Fetches metadata and history for NFTs on the Solana blockchain, simplifying the creation of NFT marketplaces or display of NFT collections.
+
+Enhanced Addressing: Helius enhances basic address data by providing information on token balances, activity histories, and account details, saving developers the time of decoding.
+
+Webhooks: Helius supports webhook notifications for real-time updates on address activities or specific events, ideal for notifications or tracking actions within apps.
+
+Multi-Token Support: Helius's APIs can handle multi-token systems, helping developers retrieve token balances, historical data, and much more.
+
+This platform is popular among Solana developers because it reduces the complexity and cost of directly interacting with the blockchain. If you’re working with Solana, Helius can be an efficient backend solution, especially for projects with high transaction volumes or complex data needs.
