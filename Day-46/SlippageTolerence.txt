@@ -1,0 +1,11 @@
+Slippage tolerance is a setting commonly used in cryptocurrency trading, especially with decentralized exchanges (DEXs), to manage potential price changes between the time a trade is placed and when it’s executed. Here’s a breakdown:
+
+Definition: Slippage tolerance is the percentage difference a trader is willing to accept between the expected price and the final execution price of a trade. If the slippage tolerance is set to 1%, for instance, the trader allows up to a 1% difference in price.
+
+Purpose: In highly volatile or low-liquidity markets, prices can fluctuate rapidly, resulting in trades that execute at different prices than expected. By setting a slippage tolerance, the trader can avoid trades being canceled if the price moves slightly, within the set tolerance level.
+
+How It Works:
+
+Low Slippage Tolerance: With a low tolerance (e.g., 0.1%), you limit the chance of paying more than expected but also risk the trade failing if prices move slightly.
+High Slippage Tolerance: A higher tolerance (e.g., 5% or more) increases the chance of trade execution but can result in less favorable prices if the price shifts significantly.
+Typical Use Cases: Traders set higher slippage tolerance for highly volatile assets or when executing larger trades on low-liquidity tokens. Lower slippage tolerance is often used for assets with more stable prices.

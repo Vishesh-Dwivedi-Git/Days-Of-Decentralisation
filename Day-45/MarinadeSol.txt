@@ -1,0 +1,7 @@
+Marinade Finance, often referred to as "Marinade" or "Marinade Sol," is a liquid staking protocol on the Solana blockchain. It allows users to stake their SOL (Solana's native token) and receive mSOL tokens in return. These mSOL tokens represent staked SOL and can be used in various DeFi protocols, allowing users to earn staking rewards while maintaining liquidity for other investment opportunities.
+
+Key Features of Marinade Sol
+Liquid Staking: Users stake SOL and receive mSOL, which can be used in trading, lending, or as collateral in DeFi applications on Solana.
+Decentralized Staking: Marinade promotes decentralization by distributing staked SOL across numerous validators, enhancing the network's resilience.
+Earn Rewards While Using mSOL: Users earn staking rewards automatically without locking up their SOL, allowing them to utilize their assets in DeFi.
+Unstaking Options: Marinade offers two unstaking options: a delayed unstaking where you wait for the SOL to become liquid, and an instant unstaking option, which incurs a small fee.

@@ -1,0 +1,21 @@
+Impermanent loss occurs when you provide liquidity to a decentralized exchange (DEX) like Uniswap or SushiSwap and the price of the assets in the liquidity pool changes compared to when you deposited them. It is called "impermanent" because the loss is only realized if you withdraw your funds before the price of the assets returns to their original ratio.
+
+Here's a breakdown of how impermanent loss works:
+
+How It Happens:
+Liquidity Pools: In a liquidity pool, you deposit two assets (e.g., ETH and USDC) in equal value. The DEX uses these assets to facilitate trades, and as a liquidity provider, you earn a portion of the transaction fees.
+
+Price Changes: As the price of one of the assets changes relative to the other, the DEX adjusts the balance of the two assets in the pool (this is known as the Automated Market Maker (AMM) model).
+
+Impermanent Loss: If the price ratio of the assets changes, you may end up with less of the higher-performing asset compared to simply holding both assets separately. The "loss" is compared to what you would have had if you held the assets outside the pool.
+
+Example:
+Suppose you deposit 1 ETH and 100 USDC into a pool when the price of ETH is $100.
+If the price of ETH increases to $150, the pool rebalances, so you now hold less ETH and more USDC.
+If you withdraw your funds at this point, the total value in dollars might be less than if you had simply held onto 1 ETH and 100 USDC.
+Mitigating Impermanent Loss:
+Hold for Fees: Sometimes, the fees earned from trading in the pool can offset the impermanent loss.
+Stablecoin Pairs: Providing liquidity in pools with less volatile pairs, such as two stablecoins (e.g., USDC and DAI), can reduce impermanent loss.
+Wait for Price Recovery: If the price of the assets in the pool returns to their original ratio, the impermanent loss is minimized or even eliminated.
+Conclusion:
+Impermanent loss is an important risk to consider when providing liquidity, especially in volatile markets. It's not a "permanent" loss unless you withdraw your liquidity when the price ratio is unfavorable.

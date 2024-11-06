@@ -1,0 +1,8 @@
+The Ethereum Virtual Machine (EVM) is a decentralized computing environment that executes smart contracts on the Ethereum Work. It serves as the runtime environment for all Ethereum accounts and smart contracts, allowing developers to deploy applications that can run on the blockchain without requiring a central authority.
+
+Decentralization: The EVM operates on a distributed network of nodes, ensuring that no single entity controls the execution of contracts.
+Turing Completeness: The EVM is Turing complete, meaning it can execute any computation that can be described algorithmically, given sufficient resources.
+Smart Contract Execution: When a smart contract is deployed, the EVM handles the contract’s execution based on the inputs it receives, managing state changes on the blockchain.
+Gas Mechanism: To prevent abuse of resources, every operation in the EVM requires a certain amount of “gas,” a measure of computational effort. Users pay gas fees to incentivize miners to process their transactions.
+Isolation: Each smart contract operates in isolation, which means that the execution of one contract doesn’t directly affect the execution of another.
+State Management: The EVM maintains a global state, tracking the current state of all accounts and contracts on the Ethereum network.

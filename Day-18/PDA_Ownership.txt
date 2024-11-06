@@ -1,0 +1,19 @@
+
+
+Characteristics of PDAs
+Deterministic Nature:
+
+PDAs are generated using a predictable algorithm based on the program ID and the provided seeds. This means that given the same inputs, you will always derive the same PDA.
+The derivation is done using the findProgramAddress function, ensuring that multiple parties can compute the same address independently.
+Non-Transferrable Ownership:
+
+PDAs are not owned by any private key, which means they cannot be transferred or controlled by a user. Instead, they are controlled exclusively by the program that created them.
+The program must have a mechanism to validate operations performed on the PDA to ensure security and correctness.
+Immutable Addresses:
+
+Once a PDA is created, its address cannot be changed. This immutability is important for data integrity.
+Creating a PDA
+To create a PDA, you will typically use a combination of:
+
+Program ID: The public key of the program that will control the PDA.
+Seeds: A sequence of bytes or strings that uniquely identify the PDA. You can use user-specific information or fixed strings as seeds.
